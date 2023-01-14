@@ -1,0 +1,11 @@
+* {
+  font-size: 32px;
+}
+
+div {
+  font-size: 1rem;
+}
+
+div p {
+  font-size: 200%;
+}

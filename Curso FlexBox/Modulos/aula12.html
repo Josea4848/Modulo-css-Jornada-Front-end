@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 12 - Criando Menu</title>
+  <!-- Folha de Estilo -->
+  <style>
+    * {
+      font-size: 10px;
+    }
+    
+    body {
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+      margin: 0;
+      overflow: hidden;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .flex {
+      width: 1000px;
+      height: 700px;
+      border: 10px solid palevioletred;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      font-size: 2.5rem;
+      list-style-type: none;
+      display: flex;
+    }
+
+    nav li {
+      margin: 0 10px;
+    }
+
+    nav a:hover {
+      font-size: 3rem;
+    }
+
+    nav ul a {
+      font-size: 2.5rem;
+      transition: all 0.2s;
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="flex">
+    <header>
+      <nav>
+        <img src="https://vidafullstack.com.br/wp-content/uploads/2019/08/logo-4.png" alt="logo-projeto">
+
+        <ul>
+          <li> <a href="#">Home</a> </li>
+          <li> <a href="#">Portfólio</a> </li>
+          <li> <a href="#">Contatos</a> </li>
+          <li> <a href="#">Sobre nós</a> </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+</body>
+</html>

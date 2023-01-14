@@ -1,0 +1,24 @@
+/* 0.0.0.1 */
+p {
+  color: darkblue;
+  background-color: lightblue;
+}
+
+/* 0.0.1.1 */
+.special {
+  color: darkgreen;
+  background-color: lightgreen;
+}
+
+/* 0.1.0.1 */
+#colorido {
+  color: darkslateblue;
+  background-color: lightslategrey;
+}
+
+/* 0.1.1.1 */
+
+#colorido-2 {
+  color: darkorange;
+  background-color: burlywood;
+}

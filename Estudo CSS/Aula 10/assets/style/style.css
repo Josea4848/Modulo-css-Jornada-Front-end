@@ -1,0 +1,26 @@
+@keyframes animacao {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+img {
+  height: 100px;
+  position: relative;
+  animation-name: animacao;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.rapido {
+  height: 200px;
+  position: relative;
+  animation-name: animacao;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
